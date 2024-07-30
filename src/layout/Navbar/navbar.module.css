@@ -1,0 +1,68 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1.6rem;
+  background-color: #2c3e50;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  background-color: #007bff;
+  border-radius: 10%;
+  margin-right: 3rem;
+}
+
+.companyName {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.userName {
+  margin-right: 1rem;
+  font-weight: 500;
+  color: white;
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; /* Square size */
+  height: 40px; /* Square size */
+  background-color: #34495e; /* Background color for icons */
+  border-radius: 10%; /* Optional: for rounded square */
+}
+
+.icon {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.iconButton:hover {
+  background-color: #1abc9c; /* Change this to your preferred hover color */
+  transition: background-color 0.3s ease;
+}
